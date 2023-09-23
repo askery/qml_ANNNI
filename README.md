@@ -8,7 +8,7 @@ This repository hosts an implementation of a Quantum Variational Classifier spec
 > **Abstract:** *The classification of phases and the detection of phase transitions are central and challenging tasks in diverse fields. Within physics, it relies on the identification of order parameters and the analysis of singularities in the free energy and its derivatives. Here, we propose an alternative framework to identify quantum phase transitions. Using the axial next-nearest neighbor Ising (ANNNI) model as a benchmark, we show how machine learning can detect three phases (ferromagnetic, paramagnetic, and a cluster of the antiphase with the floating phase). Employing supervised learning, we show that transfer learning becomes possible: a machine trained only with nearest-neighbor interactions can learn to identify a new type of phase occurring when next-nearest-neighbor interactions are introduced. We also compare the performance of common classical machine learning methods with a version of the quantum k-nearest neighbors (qKNN) algorithm.*
 
 # Key Features:
-Anisotropic Next-Nearest-Neighbor Ising Model: Implementations and utilities for simulating and handling the AnNNI model, enabling researchers to explore its behavior.
+**Anisotropic Next-Nearest-Neighbor Ising Model**: Implementations and utilities for simulating and handling the AnNNI model, enabling researchers to explore its behavior.
 
 Quantum Variational Classifier: A robust and efficient quantum variational classifier designed to handle the specific challenges posed by the AnNNI model.
 
