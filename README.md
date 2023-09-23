@@ -25,17 +25,18 @@ Utilize the provided Jupyter notebooks for hands-on demonstrations and experimen
 
 Experiment with different hyperparameters, optimization strategies, and input configurations to fine-tune the classifier for specific AnNNI instances.
 
-# Main Dependencies
+# Main Dependencies (tested only for the versions below)
 Make sure you have the following dependencies installed:
 
-qiskit==0.33.0
-numpy==1.21.2
-scipy==1.7.3
-matplotlib==3.4.3
-pandas==1.3.3
-scikit-learn==0.24.2
+qiskit==0.31.0
 
-You can install these dependencies using pip:
+qiskit-aer==0.9.1
+
+qiskit-aqua==0.9.5
+
+qiskit-ibmq-provider==0.17.0
+
+You can install these dependencies using pip and our requirements.txt file:
 
 """ pip install -r requirements.txt """
 
