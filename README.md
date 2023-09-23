@@ -38,7 +38,7 @@ qiskit-ibmq-provider==0.17.0
 
 You can install these dependencies using pip and our requirements.txt file:
 
-""" pip install -r requirements.txt """
+``` pip install -r requirements.txt ```
 
 
 # License:
