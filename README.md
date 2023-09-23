@@ -25,8 +25,20 @@ Utilize the provided Jupyter notebooks for hands-on demonstrations and experimen
 
 Experiment with different hyperparameters, optimization strategies, and input configurations to fine-tune the classifier for specific AnNNI instances.
 
-Contributions and Community:
-We welcome contributions from the community to improve and extend the functionality of this repository. Please refer to our contribution guidelines for more details.
+# Main Dependencies
+Make sure you have the following dependencies installed:
+
+qiskit==0.33.0
+numpy==1.21.2
+scipy==1.7.3
+matplotlib==3.4.3
+pandas==1.3.3
+scikit-learn==0.24.2
+
+You can install these dependencies using pip:
+
+""" pip install -r requirements.txt """
+
 
 # License:
 This project is licensed under the MIT License - see the LICENSE.md file for details.
