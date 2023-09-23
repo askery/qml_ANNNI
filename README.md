@@ -1,5 +1,5 @@
 # qml_ANNNI
-This repository hosts an implementation of a Quantum Variational Classifier specifically tailored for the Anisotropic Next-Nearest-Neighbor Ising (AnNNI) model. The AnNNI model is a cornerstone in the field of condensed matter physics, describing a 2D lattice with complex interactions beyond nearest neighbors.
+This repository hosts an implementation of a Quantum Variational Classifier specifically tailored for the Anisotropic Next-Nearest-Neighbor Ising (ANNNI) model. The ANNNI model is a cornerstone in the field of condensed matter physics, describing a 2D lattice with complex interactions beyond nearest neighbors.
 
 # Key Features:
 Anisotropic Next-Nearest-Neighbor Ising Model: Implementations and utilities for simulating and handling the AnNNI model, enabling researchers to explore its behavior.
