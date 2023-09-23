@@ -1,5 +1,11 @@
 # qml_ANNNI
-This repository hosts an implementation of a Quantum Variational Classifier specifically tailored for the Anisotropic Next-Nearest-Neighbor Ising (ANNNI) model. The ANNNI model is a cornerstone in the field of condensed matter physics, describing a 2D lattice with complex interactions beyond nearest neighbors.
+This repository hosts an implementation of a Quantum Variational Classifier specifically tailored for the Anisotropic Next-Nearest-Neighbor Ising (ANNNI) model. The ANNNI model is a cornerstone in the field of condensed matter physics, describing a 2D lattice with complex interactions beyond the nearest neighbors. The repository is related to the following paper:
+
+> **Detecting quantum phase transitions in a frustrated spin chain with a quantum classifier algorithm**<br>
+> Askery Canabarro (UFAL), André Martins (IIF/UFRN), People<br>
+> https://arxiv.org/abs/XXXX.YYYYY
+>
+> **Abstract:** *The classification of phases and the detection of phase transitions are central and challenging tasks in diverse fields. Within physics, it relies on the identification of order parameters and the analysis of singularities in the free energy and its derivatives. Here, we propose an alternative framework to identify quantum phase transitions. Using the axial next-nearest neighbor Ising (ANNNI) model as a benchmark, we show how machine learning can detect three phases (ferromagnetic, paramagnetic, and a cluster of the antiphase with the floating phase). Employing supervised learning, we show that transfer learning becomes possible: a machine trained only with nearest-neighbor interactions can learn to identify a new type of phase occurring when next-nearest-neighbor interactions are introduced. We also compare the performance of common classical machine learning methods with a version of the quantum k-nearest neighbors (qKNN) algorithm.*
 
 # Key Features:
 Anisotropic Next-Nearest-Neighbor Ising Model: Implementations and utilities for simulating and handling the AnNNI model, enabling researchers to explore its behavior.
