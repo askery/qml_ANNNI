@@ -8,34 +8,16 @@ Rafael Chaves (IIF/UFRN + SST/UFRB) and Askery Canabarro (IFSC/USP + UFAL)<br>
 >
 > **Abstract:** *The classification of phases and the detection of phase transitions are central and challenging tasks in diverse fields. Within physics, it relies on the identification of order parameters and the analysis of singularities in the free energy and its derivatives. Here, we propose an alternative framework to identify quantum phase transitions. Using the axial next-nearest neighbor Ising (ANNNI) model as a benchmark, we show how machine learning can detect three phases (ferromagnetic, paramagnetic, and a cluster of the antiphase with the floating phase). Employing supervised learning, we show that transfer learning becomes possible: a machine trained only with nearest-neighbor interactions can learn to identify a new type of phase occurring when next-nearest-neighbor interactions are introduced. We also compare the performance of common classical machine learning methods with a version of the quantum k-nearest neighbors (qKNN) algorithm.*
 
-# Key Features:
-**Anisotropic Next-Nearest-Neighbor Ising Model**: Implementations and utilities for simulating and handling the AnNNI model, enabling researchers to explore its behavior.
+________________________________
 
-Quantum Variational Classifier: A robust and efficient quantum variational classifier designed to handle the specific challenges posed by the AnNNI model.
+This repository is organized as follows:
 
-Optimization Strategies: Various optimization techniques are tailored for training the variational classifier on the AnNNI model, ensuring convergence and efficiency.
+- File `q_neighbors.py`: library file with all functions and classes used in the project;
+- File `qml_phase_transition.ipynb`: notebook file with reading and pre-processing of data, as well as execution of the algorithms and saving of outputs;
+- Folder `data`: contains all input data. Please see the `README` file therein to understand what is in each file;
+- Folder `results`: csv files with results. Each file contains an observation ID as well as the probability of the given observation belonging to class 1. Please see the notebook file to understand how each file is created.
 
-Benchmarking and Evaluation: Tools for benchmarking the performance of the classifier against classical machine learning algorithms on a range of AnNNI instances.
-
-Documentation and Tutorials: Comprehensive documentation and tutorials to guide users in understanding, extending, and utilizing the codebase effectively.
-
-# How to Use:
-Clone the repository and follow the detailed documentation to set up the environment and get started.
-
-Utilize the provided Jupyter notebooks for hands-on demonstrations and experiments.
-
-Experiment with different hyperparameters, optimization strategies, and input configurations to fine-tune the classifier for specific AnNNI instances.
-
-# Main Dependencies (tested only for the versions below)
-Make sure you have the following dependencies installed:
-
-qiskit==0.31.0
-
-qiskit-aer==0.9.1
-
-qiskit-aqua==0.9.5
-
-qiskit-ibmq-provider==0.17.0
+________________________________
 
 You can install these dependencies using pip and our requirements.txt file:
 
